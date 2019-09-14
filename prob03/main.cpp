@@ -13,7 +13,6 @@ int main()
   // Calculates prediction of sales for next year
   amount_of_sales_increased = total_sales_2018 * (percent_of_sales_increased / 100);
   prediction = amount_of_sales_increased + total_sales_2018;
-  std::cout << prediction << std::endl;
 
   // Prints total of sales for 2018 and prediction of sales for next year
   std::cout << "Last year's sales were $" << total_sales_2018 << std::endl;
